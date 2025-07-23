@@ -116,7 +116,7 @@ local Themes = {
 	SubText = Color3.fromRGB(130, 80, 80), -- Softer brown
 	Hover = Color3.fromRGB(255, 200, 215),
 	HoverChange = 0.05,
-	}
+	},
 	Dark = {
 		Name = "Dark",
 		Accent = Color3.fromRGB(96, 205, 255),
