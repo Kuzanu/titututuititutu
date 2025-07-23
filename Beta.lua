@@ -52,7 +52,7 @@ local ProtectGui = protectgui or (syn and syn.protect_gui) or function() end
 
 local Themes = {
 	Names = {
-		"Mommy Milkers",
+		"Pink",
 		"Dark",
 		"Darker", 
 		"AMOLED",
@@ -73,8 +73,9 @@ local Themes = {
 		"Bloody",
 		"Arctic"
 	},
-	MommyMilkers = {
-	Name = "Mommy Milkers",
+	
+	Pink = {
+	Name = "Pink",
 	Accent = Color3.fromRGB(185, 108, 77), -- Light chocolate accent
 	AcrylicMain = Color3.fromRGB(255, 217, 230), -- Strawberry milk pink
 	AcrylicBorder = Color3.fromRGB(170, 102, 102), -- Soft brown border
