@@ -13,8 +13,8 @@ github.com/discoart/FluentPlus | dsc.gg/hydrahub
 ]]
 
 --- button
-local Show_Button = false
-local Button_Icon = ""
+local Show_Button = true
+local Button_Icon = "panda"
 ---
 
 local Lighting = game:GetService("Lighting")
@@ -52,6 +52,7 @@ local ProtectGui = protectgui or (syn and syn.protect_gui) or function() end
 
 local Themes = {
 	Names = {
+		"Mommy Milkers",
 		"Dark",
 		"Darker", 
 		"AMOLED",
@@ -72,6 +73,50 @@ local Themes = {
 		"Bloody",
 		"Arctic"
 	},
+	MommyMilkers = {
+	Name = "Mommy Milkers",
+	Accent = Color3.fromRGB(185, 108, 77), -- Light chocolate accent
+	AcrylicMain = Color3.fromRGB(255, 217, 230), -- Strawberry milk pink
+	AcrylicBorder = Color3.fromRGB(170, 102, 102), -- Soft brown border
+	AcrylicGradient = ColorSequence.new(Color3.fromRGB(255, 200, 215), Color3.fromRGB(255, 180, 210)), -- Gradient pink
+	AcrylicNoise = 0.85,
+
+	TitleBarLine = Color3.fromRGB(200, 140, 140), -- Warm brownish line
+	Tab = Color3.fromRGB(230, 190, 200), -- Light pinkish tab
+	Element = Color3.fromRGB(245, 210, 220), -- Slightly darker pink
+	ElementBorder = Color3.fromRGB(120, 70, 70), -- Cocoa border
+	InElementBorder = Color3.fromRGB(150, 90, 90),
+
+	ElementTransparency = 0.85,
+	ToggleSlider = Color3.fromRGB(170, 110, 100),
+	ToggleToggled = Color3.fromRGB(100, 60, 60),
+
+	SliderRail = Color3.fromRGB(230, 190, 200),
+
+	DropdownFrame = Color3.fromRGB(255, 225, 235),
+	DropdownHolder = Color3.fromRGB(200, 160, 160),
+	DropdownBorder = Color3.fromRGB(140, 80, 80),
+	DropdownOption = Color3.fromRGB(240, 200, 210),
+
+	Keybind = Color3.fromRGB(220, 180, 190),
+	Input = Color3.fromRGB(240, 200, 210),
+	InputFocused = Color3.fromRGB(80, 40, 40),
+	InputIndicator = Color3.fromRGB(180, 120, 120),
+
+	Dialog = Color3.fromRGB(255, 230, 240),
+	DialogHolder = Color3.fromRGB(200, 150, 150),
+	DialogHolderLine = Color3.fromRGB(180, 120, 120),
+	DialogButton = Color3.fromRGB(235, 190, 200),
+	DialogButtonBorder = Color3.fromRGB(150, 90, 90),
+	DialogBorder = Color3.fromRGB(160, 100, 100),
+	DialogInput = Color3.fromRGB(250, 210, 220),
+	DialogInputLine = Color3.fromRGB(180, 130, 130),
+
+	Text = Color3.fromRGB(90, 50, 50), -- Dark brown text
+	SubText = Color3.fromRGB(130, 80, 80), -- Softer brown
+	Hover = Color3.fromRGB(255, 200, 215),
+	HoverChange = 0.05,
+	}
 	Dark = {
 		Name = "Dark",
 		Accent = Color3.fromRGB(96, 205, 255),
